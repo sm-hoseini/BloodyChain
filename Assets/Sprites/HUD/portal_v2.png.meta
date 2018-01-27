@@ -1,0 +1,903 @@
+fileFormatVersion: 2
+guid: 95bbac9acf7eb284a96e193be707a33b
+timeCreated: 1481452346
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: portal_v2_0
+    21300002: portal_v2_1
+    21300004: portal_v2_2
+    21300006: portal_v2_3
+    21300008: portal_v2_4
+    21300010: portal_v2_5
+    21300012: portal_v2_6
+    21300014: portal_v2_7
+    21300016: portal_v2_8
+    21300018: portal_v2_9
+    21300020: portal_v2_10
+    21300022: portal_v2_11
+    21300024: portal_v2_12
+    21300026: portal_v2_13
+    21300028: portal_v2_14
+    21300030: portal_v2_15
+    21300032: portal_v2_16
+    21300034: portal_v2_17
+    21300036: portal_v2_18
+    21300038: portal_v2_19
+    21300040: portal_v2_20
+    21300042: portal_v2_21
+    21300044: portal_v2_22
+    21300046: portal_v2_23
+    21300048: portal_v2_24
+    21300050: portal_v2_25
+    21300052: portal_v2_26
+    21300054: portal_v2_27
+    21300056: portal_v2_28
+    21300058: portal_v2_29
+    21300060: portal_v2_30
+    21300062: portal_v2_31
+    21300064: portal_v2_32
+    21300066: portal_v2_33
+    21300068: portal_v2_34
+    21300070: portal_v2_35
+    21300072: portal_v2_36
+    21300074: portal_v2_37
+    21300076: portal_v2_38
+    21300078: portal_v2_39
+    21300080: portal_v2_40
+    21300082: portal_v2_41
+    21300084: portal_v2_42
+    21300086: portal_v2_43
+    21300088: portal_v2_44
+    21300090: portal_v2_45
+    21300092: portal_v2_46
+    21300094: portal_v2_47
+    21300096: portal_v2_48
+    21300098: portal_v2_49
+    21300100: portal_v2_50
+    21300102: portal_v2_51
+    21300104: portal_v2_52
+    21300106: portal_v2_53
+    21300108: portal_v2_54
+    21300110: portal_v2_55
+    21300112: portal_v2_56
+    21300114: portal_v2_57
+    21300116: portal_v2_58
+    21300118: portal_v2_59
+    21300120: portal_v2_60
+    21300122: portal_v2_61
+    21300124: portal_v2_62
+    21300126: portal_v2_63
+    21300128: portal_v2_64
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: portal_v2_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 474
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: portal_v2_1
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 479
+        width: 62
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: portal_v2_2
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 486
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: portal_v2_3
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 488
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: portal_v2_4
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 483
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: portal_v2_5
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 460
+        width: 36
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: portal_v2_6
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 456
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: portal_v2_7
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 451
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: portal_v2_8
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 460
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: portal_v2_9
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 463
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: portal_v2_10
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 461
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: portal_v2_11
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 450
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: portal_v2_12
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 451
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: portal_v2_13
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 385
+        width: 216
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: portal_v2_14
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 451
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: portal_v2_15
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 388
+        width: 122
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: portal_v2_16
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 448
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: portal_v2_17
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 460
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: portal_v2_18
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 448
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: portal_v2_19
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 406
+        width: 48
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: portal_v2_20
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 391
+        width: 54
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: portal_v2_21
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 385
+        width: 64
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: portal_v2_22
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 386
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: portal_v2_23
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 387
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: portal_v2_24
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 323
+        width: 41
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: portal_v2_25
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 346
+        width: 41
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: portal_v2_26
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 322
+        width: 126
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: portal_v2_27
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 340
+        width: 41
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: portal_v2_28
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 323
+        width: 107
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: portal_v2_29
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 326
+        width: 98
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: portal_v2_30
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 328
+        width: 86
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: portal_v2_31
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 264
+        width: 227
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: portal_v2_32
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 259
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: portal_v2_33
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 258
+        width: 215
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: portal_v2_34
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 276
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: portal_v2_35
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 255
+        width: 87
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: portal_v2_36
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 257
+        width: 75
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: portal_v2_37
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 257
+        width: 74
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: portal_v2_38
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 195
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: portal_v2_39
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 208
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: portal_v2_40
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 218
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: portal_v2_41
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 194
+        width: 196
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: portal_v2_42
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 203
+        width: 57
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: portal_v2_43
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 8
+        width: 121
+        height: 245
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: portal_v2_44
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 8
+        width: 121
+        height: 245
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: portal_v2_45
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 124
+        width: 207
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: portal_v2_46
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 131
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: portal_v2_47
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 154
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: portal_v2_48
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 131
+        width: 200
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: portal_v2_49
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 67
+        width: 41
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: portal_v2_50
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 90
+        width: 41
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: portal_v2_51
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 39
+        width: 214
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: portal_v2_52
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 67
+        width: 36
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: portal_v2_53
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 31
+        width: 45
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: portal_v2_54
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 43
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: portal_v2_55
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 43
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: portal_v2_56
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 43
+        width: 36
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: portal_v2_57
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 43
+        width: 67
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: portal_v2_58
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 27
+        width: 56
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: portal_v2_59
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 27
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: portal_v2_60
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 27
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: portal_v2_61
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 27
+        width: 22
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: portal_v2_62
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 26
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: portal_v2_63
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 27
+        width: 30
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: portal_v2_64
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 478
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,331 @@
+fileFormatVersion: 2
+guid: f83ba847075bf8a42a47f6ecd134362c
+timeCreated: 1481550023
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: hook2_0
+    21300002: hook2_1
+    21300004: hook2_2
+    21300006: hook2_3
+    21300008: hook2_4
+    21300010: hook2_5
+    21300012: hook2_6
+    21300014: hook2_7
+    21300016: hook2_8
+    21300018: hook2_9
+    21300020: hook2_10
+    21300022: hook2_11
+    21300024: hook2_12
+    21300026: hook2_13
+    21300028: hook2_14
+    21300030: hook2_15
+    21300032: hook2_16
+    21300034: hook2_17
+    21300036: hook2_18
+    21300038: hook2_19
+    21300040: hook2_20
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hook2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1848
+        width: 248
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: hook2_1
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 1848
+        width: 248
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: hook2_2
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 1848
+        width: 248
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: hook2_3
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 1848
+        width: 248
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: hook2_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1648
+        width: 248
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: hook2_5
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 1648
+        width: 248
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: hook2_6
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 1648
+        width: 248
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: hook2_7
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 1648
+        width: 248
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: hook2_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1448
+        width: 248
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: hook2_9
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 1448
+        width: 248
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: hook2_10
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 1448
+        width: 248
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: hook2_11
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 1448
+        width: 248
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: hook2_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1248
+        width: 248
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: hook2_13
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 1248
+        width: 248
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: hook2_14
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 1248
+        width: 248
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: hook2_15
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 1248
+        width: 248
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: hook2_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1048
+        width: 248
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: hook2_17
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 1048
+        width: 248
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: hook2_18
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 1048
+        width: 248
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: hook2_19
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 1048
+        width: 248
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: hook2_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 848
+        width: 248
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
