@@ -45,7 +45,7 @@ public class PlayerController : MonoBehaviour
     public ChainCreator Chain;
 
     int playerVerticalAxis = 0;
-
+    private DistanceJoint2D distanceJoint;
     Vector3 hookedPoint;
     Vector3 hookedPos;
 
@@ -60,6 +60,8 @@ public class PlayerController : MonoBehaviour
         myRigid = GetComponent<Rigidbody2D>();
         fixedY = transform.position.y;
         currentLife = maxLife;
+        distanceJoint = gameObject.GetComponent<DistanceJoint2D>();
+        distanceJoint.enabled = false;
     }
 
 
@@ -216,6 +218,7 @@ public class PlayerController : MonoBehaviour
     void ReleaseHook()
     {
         StopCoroutine("Hooking");
+        distanceJoint.enabled = false;
         Chain.DisableChain();
         hookRb.gameObject.SetActive(false);
         myRigid.gravityScale = 1;
@@ -235,10 +238,10 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetMouseButton(1))
         {
-            myRigid.gravityScale = 0;
+            //myRigid.gravityScale = 0;
             Vector3 forceAxis = (hookedPoint - transform.position);
-            float distance = Vector3.Distance(hookedPoint, transform.position);
-            myRigid.AddForce(forceAxis * hookForce * Mathf.Clamp((distance / 2), 1, 100));
+           // float distance = Vector3.Distance(hookedPoint, transform.position);
+          //  myRigid.AddForce(forceAxis * hookForce * Mathf.Clamp((distance / 2), 1, 100));
         }
         /*
         float hAxis = Input.GetAxis("Horizontal");
@@ -286,26 +289,34 @@ public class PlayerController : MonoBehaviour
         Ray2D ray = new Ray2D(transform.position, forcePos*100);
         RaycastHit2D hit;
         hit = Physics2D.Raycast(transform.position, forcePos*100,100,IgnoreLayer);
-        print("6+++++++++++++++++++doodool" +hit.transform.tag);
         if (hit && hit.transform.tag == "hookable")
         {
-            print("6+++++++++++++++++++doodool");
+           
+
             hookedPoint = new Vector3(hit.point.x, hit.point.y, 0);
             hookHasTarget = true;
         }
-
+        float initdistance = 0;
         while (Vector3.Distance(hookRb.transform.position, transform.position) < maxHookLenth)
         {
             if (hookHasTarget && Vector2.Distance(new Vector2(hookRb.position.x, hookRb.position.y), new Vector2(hookedPoint.x, hookedPoint.y)) < 1)
             {
                 if (!isHooKing)
                 {
+                    distanceJoint.connectedAnchor = hit.point;
+                    distanceJoint.enabled = true;
+                    initdistance=  Vector3.Distance(hookRb.transform.position, transform.position) / 2;
+
                     hookRb.transform.position = hookedPoint;
                     hookRb.velocity = Vector3.zero;
                     hookRb.gravityScale = 0;
                     isHooKing = true;
                     ActionManager.OnPlayerHooked();
                 }
+                else {
+                    distanceJoint.distance = Mathf.Lerp(distanceJoint.distance, initdistance, Time.deltaTime *2f);
+                }
+                
             }
 
             Chain.Create(hookRb.transform.position, transform.position, fixedY);

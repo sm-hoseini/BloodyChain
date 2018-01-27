@@ -62,8 +62,8 @@ public class ChainCreator : MonoBehaviour
             chain[i].position = startPoint + new Vector3(i * chainRingHeight * (xx / distance), i * chainRingHeight * (zz / distance),0 );
 
            // chain[i].LookAt(target);
-            Quaternion rot = Quaternion.FromToRotation(chain[i].transform.right * -1, target.position - chain[i].position);
-            chain[i].rotation = rot;
+            Quaternion rot = Quaternion.FromToRotation(chain[i].transform.right *-1, target.position - chain[i].position);
+            chain[i].rotation *= rot;
 
             chain[i].gameObject.SetActive(true);
         }
@@ -79,7 +79,7 @@ public class ChainCreator : MonoBehaviour
         {
             chain[i].position = chain[i - 1].rotation.eulerAngles;// * (i*chainRingHeight);
         }*/
-      //  UnityEditor.EditorApplication.isPaused = true;
+        //UnityEditor.EditorApplication.isPaused = true;
     }
 
     public void DisableChain()
