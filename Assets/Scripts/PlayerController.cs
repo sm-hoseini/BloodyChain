@@ -164,7 +164,8 @@ public class PlayerController : MonoBehaviour
 
         }
     }
-
+    Vector3 lastHookPose;
+    public GameObject remainigLight;
     void Update()
     {
         if (canControllPlayer)
@@ -217,6 +218,12 @@ public class PlayerController : MonoBehaviour
 
     void ReleaseHook()
     {
+        if (isHooKing)
+        {
+            GameObject obj =Instantiate(remainigLight, lastHookPose+Vector3.forward*-.91f, Quaternion.identity) as GameObject;
+            obj.SetActive(true);
+        }
+
         StopCoroutine("Hooking");
         distanceJoint.enabled = false;
         Chain.DisableChain();
@@ -291,8 +298,8 @@ public class PlayerController : MonoBehaviour
         hit = Physics2D.Raycast(transform.position, forcePos*100,100,IgnoreLayer);
         if (hit && hit.transform.tag == "hookable")
         {
-           
 
+            lastHookPose = hit.point;
             hookedPoint = new Vector3(hit.point.x, hit.point.y, 0);
             hookHasTarget = true;
         }
