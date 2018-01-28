@@ -7,16 +7,15 @@ public class PlayerController : MonoBehaviour
     public bool canAim = true;
     public static bool isPlayerAlive = true;
     public LayerMask IgnoreLayer;
-
+    public  int numberofKeys;
     public int maxLife = 3;
     public int currentLife = 0;
     public float damageCoolDown = 0.5f;
     public static bool canRecieveDamage = true;
-
     public float moveForce = 10;
     public float maxMoveSpeed = 10;
 
-    public float jumpForce = 300;
+    public float jumpForce = 100;
     public float maxJumpSpeed = 15;
 
     public float hookForce = 2;
@@ -36,7 +35,7 @@ public class PlayerController : MonoBehaviour
     public Rigidbody2D hookRb;
 
     public bool grounded = false;
-    float groundRadious = 0.2f;
+    float groundRadious = 0.6f;
 
     float fixedY;
     bool isHooKing = false;
@@ -71,6 +70,7 @@ public class PlayerController : MonoBehaviour
         ActionManager.OnGamePaused += OnGamePaused;
         ActionManager.OnGameResumed += OnGameResumed;
         ActionManager.OnEnvironmentChange += OnEnvironmentChange;
+        ActionManager.OnGetKey += OnGetKey;
     }
 
     void OnDisable()
@@ -79,8 +79,16 @@ public class PlayerController : MonoBehaviour
         ActionManager.OnGamePaused -= OnGamePaused;
         ActionManager.OnGameResumed -= OnGameResumed;
         ActionManager.OnEnvironmentChange -= OnEnvironmentChange;
+        ActionManager.OnGetKey -= OnGetKey;
     }
-
+   void OnGetKey()
+    {
+        numberofKeys++;
+    }
+    private void OnDestroy()
+    {
+        numberofKeys = 0;
+    }
     void Start()
     {
         Statics.Emmet = this.transform;
@@ -188,22 +196,22 @@ public class PlayerController : MonoBehaviour
             }
 
 
-            if (Input.GetMouseButtonDown(1))
+            if (Input.GetMouseButtonDown(0))
             {
                 hookedPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
                 hookedPos.z = 0;
                 StartCoroutine("Hooking");
                 ActionManager.OnPlayerHookStart();
             }
-            else if (Input.GetMouseButtonUp(1))
+            else if (Input.GetMouseButtonUp(0))
             {
                 ReleaseHook();
             }
 
-            if (Input.GetMouseButtonDown(0))
-            {
-               // Shoot();
-            }
+            //if (Input.GetMouseButtonDown(0))
+            //{
+            //   // Shoot();
+            //}
 
 
             if (isHooKing)
@@ -383,6 +391,10 @@ public class PlayerController : MonoBehaviour
 
        print((collision.gameObject.layer == groundCheckLayerMask )+ "  " + !isHooKing + "  " + (collision.relativeVelocity.y > 18));
         if (collision.gameObject.layer == 8 && !isHooKing && collision.relativeVelocity.y > 18)
+        {
+            Die();
+        }
+        if (collision.gameObject.layer == 10)
         {
             Die();
         }

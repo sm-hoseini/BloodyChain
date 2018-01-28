@@ -7,6 +7,7 @@ TagManager:
   - bullet
   - Ground
   - hookable
+  - deadlyTrap
   layers:
   - Default
   - TransparentFX
@@ -18,7 +19,7 @@ TagManager:
   - 
   - Ground
   - Player
-  - 
+  - DeadTrap
   - 
   - 
   - 

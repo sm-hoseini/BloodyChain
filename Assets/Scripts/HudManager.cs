@@ -7,11 +7,12 @@ public class HudManager : MonoBehaviour
 {
 
     public Text scoreText;
-
+    public GameObject GameOVer,GameEnd;
     public Image[] lifeImages;
     public Sprite lifeDark;
     public Sprite lifeLight;
-
+    public Image[] keysImage;
+    public Sprite activeKey;
     public Image environmentImage;
     public Sprite lightImage;
     public Sprite darkImage;
@@ -24,8 +25,10 @@ public class HudManager : MonoBehaviour
         ActionManager.OnEnvironmentChange += OnEnvironmentChange;
         ActionManager.OnGameRestart += OnGameRestart;
         ActionManager.OnGamePaused += OnGamePaused;
-
+        ActionManager.OnGetKey += OnGetKey;
         ActionManager.OnScoreUpdated += OnScoreUpdated;
+        ActionManager.OnPlayerDie += OnPlayerDie;
+        ActionManager.OnEndGame += OnEndGame;
     }
 
     void OnDisable()
@@ -34,10 +37,25 @@ public class HudManager : MonoBehaviour
         ActionManager.OnEnvironmentChange -= OnEnvironmentChange;
         ActionManager.OnGameRestart -= OnGameRestart;
         ActionManager.OnGamePaused -= OnGamePaused;
-
+        ActionManager.OnGetKey -= OnGetKey;
         ActionManager.OnScoreUpdated -= OnScoreUpdated;
+        ActionManager.OnPlayerDie -= OnPlayerDie;
+        ActionManager.OnEndGame -= OnEndGame;
     }
-
+    int keyindex = -1;
+    void OnGetKey()
+    {
+        keyindex++;
+        keysImage[keyindex].sprite = activeKey;
+    }
+    void OnPlayerDie()
+    {
+        Invoke("DisplayGameOVer",1);
+    }
+    void DisplayGameOVer()
+    {
+        GameOVer.SetActive(true);
+    }
     void Start()
     {
     }
@@ -149,17 +167,24 @@ public class HudManager : MonoBehaviour
     private void OnGameRestart()
     {
         Statics.OnGameRestart();
-        SceneManager.LoadScene("GameplayScene");
+        SceneManager.LoadScene("GamePlayPrototype");
     }
 
     public void Restart()
     {
-        UiAudioManager.GetInstance().PlayClickSound();
+       // UiAudioManager.GetInstance().PlayClickSound();
         ActionManager.OnGameRestart();
     }
-
+    public void ExitToMainmenu()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
     void OnScoreUpdated()
     {
         scoreText.text = Statics.Score.ToString();
+    }
+    void OnEndGame()
+    {
+        GameEnd.SetActive(true);
     }
 }

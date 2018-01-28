@@ -32,4 +32,11 @@ public class ActionManager : MonoBehaviour
     public static Action OnGameResumed = delegate { };
 
     public static Action OnBulletHitWall = delegate { };
+    public static Action OnGetKey = delegate { };
+    public static Action OnDeath = delegate { };
+    public static Action OnEndGame = delegate { };
+    private void Start()
+    {
+        print(transform.name);
+    }
 }
