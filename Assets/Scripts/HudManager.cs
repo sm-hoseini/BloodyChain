@@ -187,4 +187,9 @@ public class HudManager : MonoBehaviour
     {
         GameEnd.SetActive(true);
     }
+    public GameObject HintPage;
+    public void HideHint()
+    {
+        HintPage.SetActive(false);
+    }
 }
