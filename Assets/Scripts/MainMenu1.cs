@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class MainMenu1 : MonoBehaviour {
-
+    public GameObject gameObjectLoading;
 	// Use this for initialization
 	void Start () {
 		
@@ -15,6 +15,8 @@ public class MainMenu1 : MonoBehaviour {
 	}
     public void BtnStart()
     {
+        Debug.Log("start");
+        gameObjectLoading.SetActive(true);
         Application.LoadLevel("GamePlayPrototype");
     }
 }
