@@ -48,7 +48,7 @@ public class PlayerController : MonoBehaviour
     private DistanceJoint2D distanceJoint;
     Vector3 hookedPoint;
     Vector3 hookedPos;
-
+    public AudioClip walk,shoothook;
     Vector3 mousePosition;
 
     Animator anim;
@@ -377,7 +377,16 @@ public class PlayerController : MonoBehaviour
             }
         }
     }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        print(collision.gameObject.layer+ "     " + groundCheckLayerMask);
 
+       print((collision.gameObject.layer == groundCheckLayerMask )+ "  " + !isHooKing + "  " + (collision.relativeVelocity.y > 18));
+        if (collision.gameObject.layer == 8 && !isHooKing && collision.relativeVelocity.y > 18)
+        {
+            Die();
+        }
+    } 
     IEnumerator ResetDamageCoolDown()
     {
         yield return new WaitForSeconds(damageCoolDown);
